@@ -1,27 +1,29 @@
-Sanskrit Wisdom Interpreter:
+# Sanskrit Wisdom Interpreter
 
-This is a Python-based console application that displays selected Sanskrit shlokas along with their English meanings. The program also converts the English meaning into speech using a text-to-speech engine.
-The goal of this project was to practice Python fundamentals while building something meaningful and interactive.
+This is a beginner-level Python project where I built a simple console application that displays selected Sanskrit shlokas along with their English meanings.
 
-Features:
-  Displays a list of Sanskrit shlokas
-  Shows the English meaning of the selected shloka
-  Converts the meaning into audio
-  Automatically plays the generated speech
-  Technologies Used
-  Python
-  pyttsx3
-  winsound
-  
-How to Run:
-Install the required library: pip install pyttsx3
+The program also converts the English meaning into speech using a text-to-speech engine, making the experience interactive and easier to understand.
 
-Then run: 
+## What I Did
+- Stored shlokas and meanings using a dictionary
+- Displayed a list of selectable shlokas
+- Showed the corresponding English meaning
+- Converted the meaning into audio using text-to-speech
+- Automatically played the generated audio file
+
+## Tools Used
+Python, pyttsx3, winsound
+
+## How to Run
+Install the required library:
+pip install pyttsx3
+
+Then run:
 python sanskrit_wisdom_interpreter.py
 
-Future Scope:
-  Add topic-based search using NLP
-  Convert into a web application
-  Store shlokas in a cloud database
-  
-This project helped me strengthen my Python basics and explore text-to-speech integration in real applications.
+## Future Scope
+- Add topic-based search using NLP
+- Convert the project into a web application
+- Store shlokas in a cloud database
+
+This project helped me strengthen my Python fundamentals and understand how text-to-speech integration works in real applications.
