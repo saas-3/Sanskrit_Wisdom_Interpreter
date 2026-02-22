@@ -1,4 +1,5 @@
-Sanskrit Wisdom Interpreter
+Sanskrit Wisdom Interpreter:
+
 This is a Python-based console application that displays selected Sanskrit shlokas along with their English meanings. The program also converts the English meaning into speech using a text-to-speech engine.
 The goal of this project was to practice Python fundamentals while building something meaningful and interactive.
 
